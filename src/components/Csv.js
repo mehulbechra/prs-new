@@ -40,12 +40,12 @@ function Csv() {
   return (
     <div className="max-w-96 mx-auto flex flex-col basis-full mt-10">
       <textarea
-        className="h-48 border-2 border-slate-400 rounded-lg"
+        className="h-48 border border-slate-400 rounded-lg"
         onChange={handleChange}
         value={textValue}
       />
       <button
-        className="border-2 border-slate-400 my-2 p-2 rounded-lg"
+        className="bg-blue-500 border-blue-600 hover:bg-blue-600 border-b my-2 p-2 rounded text-white shadow-md hover:shadow-xl"
         onClick={handleClick}
       >
         Export to CSV
